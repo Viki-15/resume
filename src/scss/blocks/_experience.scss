@@ -1,0 +1,21 @@
+.experience {
+
+    padding: 50px 0 50px 60px;
+
+    &__title {
+        font-size: 32px;
+        color: #6A43C4;
+        font-weight: 900;
+        margin-bottom: 20px;
+    }
+
+    &__list {
+        list-style-type: square;
+    }
+
+    li {
+        margin-bottom: 15px;
+        font-size: 18px;
+        font-weight: 600;
+    }
+}

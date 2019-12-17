@@ -1,0 +1,62 @@
+.about {
+
+    padding-bottom: 30px;
+
+    &__title {
+        font-size: 46px;
+        font-weight: 600;
+        font-style: italic;
+        padding-top: 70px;
+        color: #fff;
+        text-align: center;
+    }
+
+    &__contact {
+        font-size: 20px;
+        font-weight: 600;
+        font-style: italic;
+        color: #fff;
+        padding-top: 20px;
+        padding-bottom: 10px;
+        padding-left: 150px;
+    }
+
+    &__violet {
+        // background-size: cover;
+        width: 100%;
+        position: absolute;
+        z-index: -1;
+        left: 0px;
+    }
+
+    &__photo {
+        width: 400px;
+        height: auto;
+        -webkit-clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
+    }
+
+    &__before {
+        width: 400px;
+        padding-top: 40px;
+
+        &:before {
+            content: "";
+            background-color: #452493;
+            display: block;
+            position: absolute;
+            width: 400px;
+            height: 400px;
+            -webkit-clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
+            transform: rotateZ(10deg);
+
+        }
+    }
+
+    &__shevron {
+        cursor: pointer;
+        font-size: 36px;
+        color: #452493;
+        margin-top: 100px;
+
+    }
+}

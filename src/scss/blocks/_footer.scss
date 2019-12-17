@@ -1,0 +1,49 @@
+.footer {
+    background-color: #383838;
+    height: 65px;
+    width: 100%;
+
+
+    &__logo {
+        height: 55px;
+        margin-left: 50px;
+        margin-top: 5px;
+        text-align: left;
+
+    }
+
+    &__icon {
+        color: #fff;
+        font-size: 32px;
+        text-align: right;
+        cursor: pointer;
+
+        &:hover {
+            color: #FDE45C;
+        }
+    }
+
+    a:not(:last-child) {
+        margin-right: 50px;
+    }
+
+    &__phone {
+        color: #fff;
+
+        &:hover {
+            color: #FDE45C;
+        }
+    }
+
+
+    &__scroll {
+        font-size: 22px;
+        text-align: center;
+        color: #fff;
+        cursor: pointer;
+
+        &:hover {
+            color: #FDE45C;
+        }
+    }
+}

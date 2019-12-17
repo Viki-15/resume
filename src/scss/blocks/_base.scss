@@ -1,0 +1,16 @@
+body {
+    margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
+    background-color: #fff;
+    letter-spacing: 0.08em;
+}
+
+a {
+    text-decoration: none;
+}
+
+@media screen and (min-width: 1200px) {
+    .container {
+        max-width: 1200px;
+    }
+}

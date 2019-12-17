@@ -1,0 +1,44 @@
+.education {
+    padding: 50px 20px;
+
+    &__title {
+        font-size: 46px;
+        font-weight: 600;
+        font-style: italic;
+        text-align: center;
+        padding: 0 1em;
+
+    }
+
+    &__subtitle {
+        padding-left: 20px;
+    }
+
+    &__item {
+        padding-left: 50px;
+    }
+
+    &__list {
+        font-size: 20px;
+        font-weight: 400;
+        font-style: italic;
+        color: black;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+
+    }
+
+    li {
+        margin-bottom: 10px;
+    }
+
+    &__wrapper {
+        font-size: 1em;
+        border: solid 1em #383838;
+    }
+
+    &__border {
+        position: relative;
+    }
+}
